@@ -1,8 +1,8 @@
 import { LightningElement} from 'lwc';
 export default class ChildA extends LightningElement {
 
-	handleChange(e) {
-		const check = e.target.checked;
+	handleChange(event) {
+		const check = event.target.checked;
 		this.dispatchEvent(new CustomEvent('show', {detail: check}));
 	}
 }

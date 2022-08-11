@@ -1,8 +1,8 @@
 import { LightningElement } from 'lwc';
 export default class Parent extends LightningElement {
-	startShowParagraph;
+	sendShowParagraph;
 
 	showParagraph(event) {
-		this.startShowParagraph = event.detail;
+		this.sendShowParagraph = event.detail;
 	}
 }
