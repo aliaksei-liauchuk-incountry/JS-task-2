@@ -1,6 +1,6 @@
 <template>
-	<lightning-card title="Parent Component">    
-		<c-childa class="slds-show slds-is-relative" onshow={showParagraph}></c-childa>
-		<c-childb class="slds-show slds-is-relative" paragraph={sendShowParagraph}></c-childb>
-	</lightning-card>
+    <lightning-card title="Parent Component">    
+        <c-child-a class="slds-show slds-is-relative" onshow={showParagraph}></c-child-a>
+        <c-child-b class="slds-show slds-is-relative" paragraph={sendShowParagraph}></c-child-b>
+    </lightning-card>
 </template>
